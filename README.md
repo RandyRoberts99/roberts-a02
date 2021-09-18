@@ -1,2 +1,2 @@
 # roberts-a02
-Testing testing 1 2 3
+This is assignment two by Randall Roberts!
