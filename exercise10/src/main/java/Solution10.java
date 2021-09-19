@@ -1,3 +1,11 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 2 Solution
+ *  Copyright 2021 Randall Roberts
+ */
+
+// Write a program that takes information on three items, and calculates a subtotal, a tax amount, and a complete total
+// and prints the results.
+
 import java.util.Scanner;
 
 public class Solution10
@@ -22,6 +30,10 @@ public class Solution10
         System.out.print("Enter the quantity of item 3: ");
         String itemThreeQuantity = reader.next();
 
+        calculateItemTotals(itemOnePrice, itemOneQuantity, itemTwoPrice, itemTwoQuantity, itemThreePrice, itemThreeQuantity);
+    }
+    private static void calculateItemTotals(String itemOnePrice, String itemOneQuantity, String itemTwoPrice, String itemTwoQuantity, String itemThreePrice, String itemThreeQuantity)
+    {
         double itemOnePriceDouble = Double.parseDouble(itemOnePrice);
         double itemOneQuantityDouble = Double.parseDouble(itemOneQuantity);
         double itemOneTotal = itemOnePriceDouble * itemOneQuantityDouble;
