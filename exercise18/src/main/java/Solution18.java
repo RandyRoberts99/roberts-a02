@@ -11,7 +11,7 @@ public class Solution18
         System.out.println("Press F to convert from Celsius to Fahrenheit.");
         System.out.print("Your choice: ");
         String choice = reader.next();
-        if (choice.equals("C") || choice.equals("c"))
+        if (choice.equalsIgnoreCase("c"))
         {
             System.out.print("Please enter the temperature in Fahrenheit: ");
             temperature = reader.nextInt();
