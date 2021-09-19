@@ -1,0 +1,11 @@
+
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÁóÛûÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(İ‰®è
+N	java:S106"9Replace this use of System.out or System.err by a logger.(™†ÌÀ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(Â›úF
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¹îª©ıÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÍÒ«Şúÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(§ò³õşÿÿÿÿ
+S	java:S1066"9Replace this use of System.out or System.err by a logger.(˜ÇšŒùÿÿÿÿ
+\
+java:S11925"FDefine a constant instead of duplicating this literal "%1.2f" 3 times.(÷àí
