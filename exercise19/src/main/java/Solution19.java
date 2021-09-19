@@ -1,3 +1,11 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 2 Solution
+ *  Copyright 2021 Randall Roberts
+ */
+
+// Write a program that takes a weight and height from the user and process a BMI and prints the BMI with
+// a comparison statement about the BMI
+
 import java.util.Scanner;
 
 public class Solution19
