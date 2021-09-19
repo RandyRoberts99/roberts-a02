@@ -1,3 +1,11 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 2 Solution
+ *  Copyright 2021 Randall Roberts
+ */
+
+// Write a program that has the user enter a character that decides whether the program calculates
+// celsius -> fahrenheit, or fahrenheit -> celsius, and print the output
+
 import java.util.Scanner;
 
 public class Solution18
@@ -6,11 +14,17 @@ public class Solution18
 
     public static void main(String[] args)
     {
-        int temperature;
         System.out.println("Press C to convert from Fahrenheit to Celsius.");
         System.out.println("Press F to convert from Celsius to Fahrenheit.");
         System.out.print("Your choice: ");
         String choice = reader.next();
+
+        processChoice(choice);
+    }
+    private static void processChoice(String choice)
+    {
+        int temperature;
+
         if (choice.equalsIgnoreCase("c"))
         {
             System.out.print("Please enter the temperature in Fahrenheit: ");
